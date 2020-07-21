@@ -1,0 +1,7 @@
+*.html
+*.png
+allure-results/
+.allure/
+build/
+.idea/
+target/
