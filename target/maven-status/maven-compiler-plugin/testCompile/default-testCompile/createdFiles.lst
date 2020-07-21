@@ -1,7 +1,0 @@
-pages/SearchResultsPage.class
-endSteps/HomePageSteps.class
-pages/HomePage.class
-stepdefs/HomeStepdefs.class
-RunCukesTest.class
-utils/Hook.class
-stepdefs/SearchStepdefs.class
