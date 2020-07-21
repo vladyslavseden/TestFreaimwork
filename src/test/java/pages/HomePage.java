@@ -15,7 +15,10 @@ public class HomePage {
     private By GLOBAL_SEARCH_DROP_DOWN= By.xpath(" //ul[@class='erkvQe");
     private By GLOBAL_SEARCH_DROP_DOWN_VALUES = By.xpath("//body[@id='gsr']/div[@id='viewport']/div[@id='searchform']/form[@id='tsf']/div/div[@class='A8SBwf emcav']/div[@class='UUbT9']/div[@class='aajZCb']/ul[@class='erkvQe']/li");
     private By GLOBAL_SEARCH_BUTTON = By.xpath("//div[@class='FPdoLc tfB0Bf']//input[@name='btnK']");
+    private By GOOGLE_MENU_BUTTON = By.xpath("//a[@class='gb_D gb_zc']");
+    private By MAIL_BUTTON = By.xpath("/div[@class='gb_qe gb_i gb_Pg gb_Fg']//div[1]//a[1]");
 
+    public void clickOnMailButton() { $(MAIL_BUTTON).click();};
 
     public void clickOnGlobalSearchButton() {
         $(GLOBAL_SEARCH_BUTTON).click();
