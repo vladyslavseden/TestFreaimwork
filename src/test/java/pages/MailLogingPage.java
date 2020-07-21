@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import static com.codeborne.selenide.Selenide.$;
 
 @Component
-public class MailPage {
+public class MailLogingPage {
 
     private By LOGINTEXTFIELD = By.xpath("//input[@id='identifierId']");
     private By NEXTBUTTON = By.xpath("//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc']");
